@@ -2,12 +2,12 @@ package Branch;
 
 public class B1 {
     String name, id;
-    float age;
+    double income;
 
-    public B1(String name, String id, float age) {
+    public B1(String name, String id, double income) {
         this.name = name;
         this.id = id;
-        this.age = age;
+        this.income = income;
     }
 
     public String getName() {
@@ -26,11 +26,11 @@ public class B1 {
         this.id = id;
     }
 
-    public float getAge() {
-        return age;
+    public double getIncome() {
+        return income;
     }
 
-    public void setAge(float age) {
-        this.age = age;
+    public void setIncome(double income) {
+        this.income = income;
     }
 }
