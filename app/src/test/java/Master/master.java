@@ -1,10 +1,10 @@
 package Master;
 
 public class master {
-    int roll;
+    int marks;
     String name;
     master class(int r, String a){
-        this.roll=r;
+        this.marks=r;
         this.name=a;
     }
 
@@ -16,11 +16,11 @@ public class master {
         this.name = name;
     }
 
-    public int getRoll() {
-        return roll;
+    public int getMarks() {
+        return marks;
     }
 
-    public void setRoll(int roll) {
-        this.roll = roll;
+    public void setMarks(int marks) {
+        this.marks = marks;
     }
 }
